@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ProductAPI",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ShoppingCartAPI", "Mango.Services.ShoppingCartAPI\Mango.Services.ShoppingCartAPI.csproj", "{7711458E-510B-4E55-82AE-2AFABEAB99C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoMessageBus", "MangoMessageBus\MangoMessageBus.csproj", "{DC675EAD-E49E-44B4-8E3D-F10EEDCC980B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MangoMessageBus", "MangoMessageBus\MangoMessageBus.csproj", "{DC675EAD-E49E-44B4-8E3D-F10EEDCC980B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.EmailAPI", "Mango.Services.Email\Mango.Services.EmailAPI.csproj", "{7F7785EC-CD9B-4CDB-B17F-AFBD31D0C5E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.EmailAPI", "Mango.Services.Email\Mango.Services.EmailAPI.csproj", "{7F7785EC-CD9B-4CDB-B17F-AFBD31D0C5E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.OrderAPI", "Mango.Services.OrderAPI\Mango.Services.OrderAPI.csproj", "{766D0355-6B13-4C64-975B-5C3191A3D63C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{7F7785EC-CD9B-4CDB-B17F-AFBD31D0C5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7785EC-CD9B-4CDB-B17F-AFBD31D0C5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7785EC-CD9B-4CDB-B17F-AFBD31D0C5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766D0355-6B13-4C64-975B-5C3191A3D63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766D0355-6B13-4C64-975B-5C3191A3D63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766D0355-6B13-4C64-975B-5C3191A3D63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766D0355-6B13-4C64-975B-5C3191A3D63C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{7711458E-510B-4E55-82AE-2AFABEAB99C8} = {5BC35371-67E0-4FC8-A028-1F7890D56F26}
 		{DC675EAD-E49E-44B4-8E3D-F10EEDCC980B} = {9826BF0A-B75D-42C8-8C01-57CB4ABFB81F}
 		{7F7785EC-CD9B-4CDB-B17F-AFBD31D0C5E3} = {5BC35371-67E0-4FC8-A028-1F7890D56F26}
+		{766D0355-6B13-4C64-975B-5C3191A3D63C} = {5BC35371-67E0-4FC8-A028-1F7890D56F26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23C539E9-2C58-4706-9128-6934CEFE6842}
