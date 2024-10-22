@@ -3,6 +3,9 @@
 
 This project is a microservice-based application designed to offer a scalable and flexible solution that meets modern software requirements. The project incorporates key software components such as authentication, payment integration, API Gateway management, and communication between microservices.
 
+![image](https://github.com/user-attachments/assets/f523f381-2775-46f1-a9a0-9e28d7e0a1cf)
+
+
 ##
 
 
