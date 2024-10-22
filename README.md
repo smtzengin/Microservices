@@ -12,8 +12,8 @@ This project is a microservice-based application designed to offer a scalable an
 
 | **Client**            | **Server**                | **Authentication**           | **Payments** | **Database**                            | **Messaging**         | **Operations**                    |
 | :-------------------- | :------------------------ | :---------------------------- | :-----------| :-------------------------------------- | :-------------------- | :-------------------------------- |
-| ASP .NET MVC          | ASP .NET Core             | ASP .NET Core Authentication | Stripe      | SQL (Entity Framework Core ORM üzerinden) | RabbitMQ              | CRUD (Create, Read, Update, Delete) |
-|                       | Entity Framework Core     | JwtBearer                    |             |                                        | Azure Service Bus     |                                   |
+| ASP .NET MVC          | ASP .NET Core             | ASP .NET Core Authentication | Stripe      | SQL (Entity Framework Core ORM üzerinden) | Azure Service Bus              | CRUD (Create, Read, Update, Delete) |
+|                       | Entity Framework Core     | JwtBearer                    |             |                                        |     |                                   |
 |                       | API Gateway               |                               |             |                                        |                       |                                   |
 |                       | RabbitMQ                  |                               |             |                                        |                       |                                   |
 |                       | Azure Service Bus         |                               |             |                                        |                       |                                   |
